@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b,c,d,e,f,g;
+    float divide;
+    
+    cout << "Please enter two integer: ";
+    cin >> a;
+    cin >> b;
+    
+    c       = a+b;
+    d = a-b;
+    e = a*b;
+    f    = a / (float)b; 
+	g= a%b;  //typecasting
+    
+    cout << endl <<"Sum = " << c;
+    cout << endl <<"Difference = " << d;
+    cout << endl <<"Multiplication = " << e;
+    cout << endl <<"Division = " << f;
+    
+    return 0;
+
+}
